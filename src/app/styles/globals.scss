@@ -1,0 +1,13 @@
+@import './variables';
+@import './breakpoints';
+@import './reset';
+
+@import '../components/Layout/Navbar/menubar';
+@import '../components/Layout/Footer/footer';
+@import '../components/Banner/banner';
+@import '../components/About/about';
+@import '../components/Services/services';
+@import '../components/Blog/blog';
+@import '../components/Portfolio/portfolio';
+@import'../components/Subscribe/Subscribe';
+@import '../components/Partners/Partners'

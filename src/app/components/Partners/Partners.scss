@@ -1,0 +1,43 @@
+.partner{
+    margin-top: 100px;
+    @include media-breakpoint-down(md){
+        margin-top: 60px;
+    }
+
+    .partners_header{
+        margin-bottom: 40px;
+        h2{
+            font-size: 48px;
+            color: $black-color;
+            font-weight: 700;
+            @include media-breakpoint-down(md){
+                font-size: 35px;
+
+            }
+        }
+    }
+    .partner_items{
+        border: 2px solid $border-color;
+        padding: 50px 20px;
+        border-radius: 8px;
+        text-align: center;
+        min-height: 250px;
+        @include media-breakpoint-down(md){
+            padding: 30px;
+            min-height: 100px;
+            margin-bottom: 20px;
+        }
+        svg{
+            margin-bottom: 10px;
+        }
+        h5{
+            font-size: 32px;
+            font-weight: 700;
+            color: $black-color;
+            @include media-breakpoint-down(md){
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+    }
+}
