@@ -35,8 +35,7 @@ const AboutBottom = () => {
                 <div className="row">
                     {
                         AboutData.map((item, i)=>(
-                            <>
-                            <motion.div initial={{ opacity: 1 }}
+                            <motion.div key={i} initial={{ opacity: 1 }}
                              whileHover={{
                                 scale: 1.05,
                                 transition: { duration: 0.2,
@@ -50,7 +49,6 @@ const AboutBottom = () => {
                                 <p>{item.paragraph}</p>
                                 </div>
                             </motion.div>
-                            </>
                         ))
                     }
                 </div>

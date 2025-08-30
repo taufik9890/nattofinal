@@ -20,9 +20,10 @@ const Copyright = () => {
               <ul className='d-flex justify-content-center gap-lg-5'>
               {
                 Copyrightdata?.map((data, i)=>(
-                  <li>
+                  <li key={i}  >
                     <Link href={data.link} className={OpenSans.className}>{data.title}</Link>
                   </li>
+
                 ))
               }
               </ul>

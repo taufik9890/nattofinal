@@ -44,7 +44,7 @@ export default function Footer() {
             {
               ServiceData.map((data, i)=>(
                 // console.log('data', data)
-                <Link className={DmSans} href={data.link}>{data.title}</Link>
+                <Link key={i} className={DmSans} href={data.link}>{data.title}</Link>
 
               ))
             }  
@@ -58,7 +58,7 @@ export default function Footer() {
             {
               ResourceData.map((data, i)=>(
                 // console.log('data', data)
-                <Link className={DmSans} href={data.link}>{data.title}</Link>
+                <Link key={i} className={DmSans} href={data.link}>{data.title}</Link>
 
               ))
             }  

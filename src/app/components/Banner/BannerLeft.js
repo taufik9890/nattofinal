@@ -26,7 +26,7 @@ const BannerLeft = () => {
         <span>Solution</span></h1>
         <p className={DmSans.className}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
         <div className="banner_button">
-            <motion.button c initial={{ opacity: 1 }}
+            <motion.button  initial={{ opacity: 1 }}
   whileHover={{
     scale: 1.1,
     transition: { duration: 0.2,

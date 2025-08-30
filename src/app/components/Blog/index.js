@@ -69,16 +69,14 @@ const Blog = () => {
             <Slider {...settings}>
                 
                     {
-                        BlogData.map((blogs)=>(
-                            <>
-                            <div className="blogs_item ">
+                        BlogData.map((blogs, i)=>(
+                            <div key={i} className="blogs_item ">
                             {blogs.img}
                             <p className={DmSans.className}>{blogs.calendar}</p>
                             <h4 className={DmSans.className}>{blogs.header}</h4>
                             <Link className={DmSans.className} href='/'>{blogs.link}</Link>
 
                             </div>
-                            </>
                         ))
                     }
             </Slider>

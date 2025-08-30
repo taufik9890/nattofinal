@@ -58,15 +58,12 @@ window.addEventListener('scroll', handleScroll)
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            {Menudata?.map((menu, i) => (
-    <Link 
-      key={menu.id || i}   
-      className={DmSans.className + ' mx-3'} 
-      href={menu.url}
-    >
-      {menu.title}
-    </Link>
-  ))}
+            {
+              Menudata?.map((menu, i)=>(
+                // <Link className='mx-3' href={menu.url}>{menu.title}</Link>
+                <Link key={i} className={DmSans.className + ' ' + 'mx-3'} href={menu.url}>{menu.title}</Link>
+              ))
+            } 
           </Nav>
             <motion.button initial={{ opacity: 1 }}
   whileHover={{

@@ -37,7 +37,7 @@ const Portfolio = () => {
             <div className="col-md-6">
                 <div className="portfolio_left">
                   <div className="portfolio_img">
-                    <Image src={leftImage}/>
+                    <Image alt='leftImg' src={leftImage}/>
                   </div>
                   <div className="experience">
                     <div className="experience_text">
@@ -85,7 +85,7 @@ const Portfolio = () => {
                    <div className="counter">
                     { 
                       PortfolioCountData.map((item,i)=>(
-                        <div className="counter_item">
+                        <div key={i} className="counter_item">
                           <h4 className={GrechenFuemen.className}>{item.numbers}</h4>
                           <p className={Dm_Sans.className}>{item.details}</p>
 
