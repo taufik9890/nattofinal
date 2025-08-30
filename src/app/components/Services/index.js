@@ -18,7 +18,7 @@ const Services = () => {
           <div className="service_left">
             <h4 className={DmSans.className}>I <span>Run</span>  Agency <span>Smartly</span> With
               My <span>Team</span> Member.</h4>
-              <p className={DmSans.className}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+              <p className={DmSans.className}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look.</p>
               <motion.button initial={{
                 opacity: 1,
               }} 

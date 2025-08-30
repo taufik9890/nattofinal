@@ -59,7 +59,7 @@ const Portfolio = () => {
               <div className="portfolio_right">
                 <h3 className={Dm_Sans.className}>We <span>Run</span>  Agency <span>Smartly</span> With
                   Our <span>Team</span> Member.</h3>
-                  <p className={Dm_Sans.className} >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+                  <p className={Dm_Sans.className} >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look.</p>
                   <ul>
                     {
                       portfolioData.map((item,i)=>(
